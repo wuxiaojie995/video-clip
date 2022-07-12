@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+/* 头部 */
+.header{
+    width: 1519px;
+    height: 64px;
+    background-color:rgb(32, 32, 32);
+}
+.header img{
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.header .index li{
+    float: left;
+    height: 64px;
+    padding-left: 40px;
+    line-height: 64px;
+}
+.header .index li a{
+    font-size: 17px;
+    color: #fff;
+}
+.header input{
+    width: 215px;
+    height: 35px;
+    margin-left: 35px;
+    margin-top: 15px;
+    border-radius: 20px;
+    padding-left: 22px;
+    box-sizing: border-box;
+}
+.header .search{
+    position: absolute;
+    top: 13px;
+    left:835px;
+}
+.header .rigth {
+   float: right;
+    margin-right: 200px;
+    height: 64px;
+    line-height: 64px;
+}
+.header .rigth li{
+    float: left;
+    padding-right: 20px;
+}
+.header .rigth li a{
+    font-size: 17px;
+    color: #fff;
+}
+
+
+/* 底部 */
+.fotter-box{
+    width: 1519px;
+    height: 289px;
+    background-color: #282828;
+}
+.fot-top{
+    width: 1064px;
+    height: 140px;
+    margin: 20px auto;
+    border-bottom: 1px solid #333;
+}
+.fot-left{
+    width: 532px;
+    height: 120px;
+    float: left;
+    box-sizing: border-box;
+}
+.fot-left a{
+    display: inline-block;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.fot-left span{
+    display: block;
+    padding-bottom: 5px;
+    font-size: 12px;
+    color: #999;
+    box-sizing: border-box;
+}
+.fot-rigth{
+    width: 532px;
+    height: 120px;
+    float: left;
+}
+.fotter-box .fot-rigth ul{ 
+        margin-top: 55px;
+        margin-left: 30px;
+}
+.fotter-box .fot-rigth ul li{
+    float: left;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.fotter-box .fot-rigth ul li a{
+    color: #999;
+    font-size: 12px;
+}
+.fotter-box .fot-rigth ul li a:hover{
+    color: #fff;
+}
+.fot-bot{
+    width: 1064px;
+    height: 125px;
+    margin: 0 auto;
+}
+.fot-bot p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.fot-bot p a>img{
+    width: 10px;
+    padding-right: 5px;
+}
+.fot-bot p span{
+    color: #999;
+    font-size: 12px;
+    padding-right: 5px;
+}
+.fot-bot p a span:hover{
+    color: #fff;
+}
